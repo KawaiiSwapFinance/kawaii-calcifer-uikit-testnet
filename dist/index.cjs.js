@@ -1968,8 +1968,14 @@ var Icon$20 = function (props) {
 
 var Icon$21 = function (props) {
     var theme = useTheme();
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 28 28" }, props),
-        React.createElement("image", { width: "28", height: "28", href: theme.isDark ? '/images/kawaii/icons/Dividends_dark.png' : "/images/kawaii/icons/Dividends.png" })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 28 28" }, props),
+        React__default['default'].createElement("image", { width: "28", height: "28", href: theme.isDark ? '/images/kawaii/icons/Dividends_dark.png' : "/images/kawaii/icons/Dividends.png" })));
+};
+
+var Icon$22 = function (props) {
+    var theme = useTheme();
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 28 28" }, props),
+        React__default['default'].createElement("image", { width: "28", height: "28", href: theme.isDark ? '/images/kawaii/icons/Buybacks_dark.png' : "/images/kawaii/icons/Buybacks.png" })));
 };
 
 var Icon$$ = function (props) {
@@ -2084,6 +2090,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     TwitterIcon: Icon$Y,
     DiscordIcon: Icon$20,
     DividendsIcon: Icon$21,
+    BuybackIcon: Icon$22,
     RedditIcon: Icon$Z,
     AuditIcon: Icon$_,
     GooseIcon: Icon$$,
@@ -2157,7 +2164,12 @@ var links = [
     {
       label: 'Dividends Platform',
       icon: 'DividendsIcon',
-      href: '/',
+      href: '/dividends',
+    },
+    {
+      label: 'Buyback Protocol',
+      icon: 'BuybackIcon',
+      href: '/buybacks',
     },
     {
         label: "Lottery",
