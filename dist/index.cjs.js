@@ -3008,9 +3008,9 @@ var dark$6 = {
     background: darkColors.card,
 };
 
-var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark, button: dark$1, colors: darkColors, card: dark$2, toggle: dark$4, nav: dark$5, modal: dark$6, radio: dark$3 });
+var darkTheme = __assign(__assign({}, base), { isDark: false, alert: dark, button: dark$1, colors: darkColors, card: dark$2, toggle: dark$4, nav: dark$5, modal: dark$6, radio: dark$3 });
 
-var lightTheme = __assign(__assign({}, base), { isDark: false, alert: light, button: light$1, colors: lightColors, card: light$2, toggle: light$4, nav: light$5, modal: light$6, radio: light$3 });
+var lightTheme = __assign(__assign({}, base), { isDark: true, alert: light, button: light$1, colors: lightColors, card: light$2, toggle: light$4, nav: light$5, modal: light$6, radio: light$3 });
 
 exports.AddIcon = Icon$4;
 exports.Alert = Alert;
