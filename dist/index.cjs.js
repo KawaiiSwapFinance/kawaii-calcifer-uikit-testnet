@@ -2257,28 +2257,6 @@ var links = [
         ],
     },
     {
-        label: "Charts",
-        icon: "ChartsIcon",
-        items: [
-            {
-                label: "Coincodex",
-                href: "https://coincodex.com/crypto/calcifer",
-            },
-            {
-                label: "Poocoin",
-                href: "https://poocoin.app/tokens/0x9d13cc6fabde882e059413c524a32ba5befebd8b",
-            },
-            {
-                label: "Nomics",
-                href: "https://nomics.com/assets/calcifer-calcifer",
-            },
-            {
-                label: "LivecoinWatch",
-                href: "https://www.livecoinwatch.com/price/Calcifer-CALCIFER",
-            },
-        ],
-    },
-    {
         label: "Listings",
         icon: "ListingsIcon",
         items: [
