@@ -413,12 +413,12 @@ var Icon$u = function (props) {
 
 var Icon$v = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/kawaii/token_logo/logo.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/kawaii/spinner/spinner.png" })));
 };
 
 var Icon$w = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/kawaii/token_logo/logo.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/kawaii/spinner/spinner.png" })));
 };
 
 var Icon$x = function (props) {
