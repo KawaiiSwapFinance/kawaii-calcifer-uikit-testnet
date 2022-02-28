@@ -2939,6 +2939,8 @@ var baseColors = {
     primary: "#f4bd0b",
     primaryBright: "#f4bd0b",
     primaryDark: "#cc3300",
+    primaryOrange: "#ff6633",
+    primaryEmerald: "#bfff80",
     secondary: "#000080",
     success: "#f4bd0b",
     warning: "#FFB237",

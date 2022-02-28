@@ -29,6 +29,8 @@ export declare type Colors = {
     primary: string;
     primaryBright: string;
     primaryDark: string;
+    primaryOrange: string;
+    primaryEmerald: string;
     secondary: string;
     tertiary: string;
     success: string;
