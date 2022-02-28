@@ -4,6 +4,8 @@ export declare const baseColors: {
     primary: string;
     primaryBright: string;
     primaryDark: string;
+    primaryOrange: string;
+    primaryEmerald: string;
     secondary: string;
     success: string;
     warning: string;
